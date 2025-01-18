@@ -1,0 +1,66 @@
+/* RegisterPage.module.css */
+.registerContainer {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .registerForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputGroup {
+    margin-bottom: 15px;
+  }
+  
+  .inputGroup label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .inputGroup input,
+  .inputGroup select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .inputGroup input:focus,
+  .inputGroup select:focus {
+    border-color: #4a90e2;
+    outline: none;
+  }
+  
+  .registerBtn {
+    padding: 12px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .registerBtn:hover {
+    background-color: #357ab7;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  
